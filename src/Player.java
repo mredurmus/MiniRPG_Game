@@ -103,7 +103,7 @@ public class Player {
             default -> initPlayer("Savaşçı", 760, 260, 10, 4, 1000);
         }
         viewStats();
-        System.out.println("Yardım için 'm help' yazabilirsin.");
+        System.out.println("Yardım için 'mhelp' yazabilirsin.");
     }
 
     public void viewStats(){

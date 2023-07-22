@@ -10,9 +10,6 @@ public class Main {
             }
         };
         Game game = new Game();
-        String start = scan.nextLine();
-        if(start.equals("m")){
-            game.login();
-        }
+        game.login();
     }
 }
